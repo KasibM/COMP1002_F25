@@ -8,8 +8,7 @@ body {
 	max-width: 1024px;
 }
 input[type="radio"] {	
-	margin-right: 5%;
-	border-width: 1rem;		
+	margin-right: 5%;	
 }
 input[type="checkbox"] {
 	
