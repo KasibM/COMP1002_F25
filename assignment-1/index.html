@@ -7,11 +7,38 @@
     </head>
     <header>
         <h1>Better than Domino's</h1>
-        <em>Because we're better than Domino's</em>
+        <h4><em>Because we're better than Domino's</em></h4>
+        <br />
     </header>
-    <main>
+    <body>
+        <section>
+            <form id="pizza_order" action="/order.php" method="get">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </p>
+                    <p>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email" />
+                    </p>
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="user_phone" />
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Order</legend>
+                    <p>
+                        
+                    </p>
+                </fieldset>
 
-    </main>
+
+            </form>
+        </section>
+    </body>
     <footer>
         <p><small>©Better than Domino's Inc. All rights reserved</small></p>
     </footer>
