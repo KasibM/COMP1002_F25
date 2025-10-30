@@ -7,3 +7,7 @@ body {
 	min-width: 768px;
 	max-width: 1024px;
 }
+input[type="radio"] {
+	display: inline-flex;
+	margin-right: 5%;		
+}
