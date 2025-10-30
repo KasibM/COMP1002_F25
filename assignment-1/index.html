@@ -13,72 +13,94 @@
     <main>
         <section>
             <form id="pizza_order" action="/order.php" method="get">
-                <fieldset>
-                    <legend>Contact Information</legend>
-                    <p>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name" />
-                    </p>
-                    <p>
-                        <label for="mail">Email:</label>
-                        <input type="email" id="mail" name="user_email" />
-                    </p>
-                    <p>
-                        <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone" name="user_phone" />
-                    </p>
-                </fieldset>
+                <div> <!--Contact Information-->
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </p>
+                        <p>
+                            <label for="mail">Email:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </p>
+                        <p>
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="user_phone" />
+                        </p>
+                    </fieldset>
+                </div>
                 <br />
-                <fieldset>
-                    <legend>Quantity</legend>
-                    <label for="quantity">How many Pizzas would you like to order?</label>
-                    <select id="quantity" name="pizza_quantity">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>100</option>
-                    </select>
-                </fieldset>
+                <div> <!--Quantity-->
+                    <fieldset>
+                        <legend>Quantity</legend>
+                        <label for="quantity">How many Pizzas would you like to order?</label>
+                        <select id="quantity" name="pizza_quantity">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>100</option>
+                        </select>
+                    </fieldset>
+                </div>
                 <br />
-                <fieldset>
-                    <legend>Size</legend>
-                    <p>
-                        <label for="large">Large</label>
-                        <input type="radio" id="large" name="pizza_size">
-                    </p>
-                    <p>
-                        <label for="medium">Medium</label>
-                        <input type="radio" id="medium" name="pizza_size">
-                    </p>
-                    <p>
-                        <label for="small">Small</label>
-                        <input type="radio" id="small" name="pizza_size">
-                    </p>
-                    <legend>Order2</legend>
-                </fieldset>
+                <div> <!--Style-->
+                    <fieldset>
+                        <legend>Style</legend>
+                        
+                    </fieldset>
+                </div>
                 <br />
-                <fieldset>
-                    <legend>Shape</legend>
+                <div> <!--Size-->
+                    <fieldset>
+                        <legend>Size</legend>
+                        <p>
+                            <label for="large">Large</label>
+                            <input type="radio" id="large" name="pizza_size">
+                        </p>
+                        <p>
+                            <label for="medium">Medium</label>
+                            <input type="radio" id="medium" name="pizza_size">
+                        </p>
+                        <p>
+                            <label for="small">Small</label>
+                            <input type="radio" id="small" name="pizza_size">
+                        </p>
+                    </fieldset>
+                </div>
+                <br />
+                <div> <!--Shape-->
+                    <fieldset>
+                        <legend>Shape</legend>
+                        <p>
+                            <label for="round">Round</label>
+                            <input type="radio" id="round" name="pizza_shape">
+                        </p>
+                        <p>
+                            <label for="square">Square</label>
+                            <input type="radio" id="square" name="pizza_shape">
+                        </p>
+                        <p>
+                            <label for="triangular">Triangular</label>
+                            <input type="radio" id="triangular" name="pizza_shape">
+                        </p>
+                    </fieldset>
+                </div>
+                <div> <!--Reset/Submit-->
                     <p>
-                        <label for="round">Round</label>
-                        <input type="radio" id="round" name="pizza_shape">
+                        <button type="reset">Reset</button>
                     </p>
                     <p>
-                        <label for="square">Square</label>
-                        <input type="radio" id="square" name="pizza_shape">
+                        <button type="submit">Order</button>
                     </p>
-                    <p>
-                        <label for="triangular">Triangular</label>
-                        <input type="radio" id="triangular" name="pizza_shape">
-                    </p>
-                </fieldset>
-                
-                <p>
-                    <button type="reset">Reset</button>
-                </p>
-                <p>
-                    <button type="submit">Order</button>
-                </p>
+                </div>
+                <div> <!--Toppings-->
+
+                </div>
+
+                <div> <!--Takeout/Pickup/Delivery-->
+
+                </div>
             </form>
         </section>
     </main>
