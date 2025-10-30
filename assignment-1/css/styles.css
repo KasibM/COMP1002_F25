@@ -7,7 +7,11 @@ body {
 	min-width: 768px;
 	max-width: 1024px;
 }
-input[type="radio"] {
-	display: inline-flex;
-	margin-right: 5%;		
+input[type="radio"] {	
+	margin-right: 5%;
+	border-width: 1rem;		
+}
+input[type="checkbox"] {
+	
+	margin-right: 1rem;
 }
