@@ -37,6 +37,7 @@ img{
 }
 /* colours warning text red display if address box is empty */
 #address:placeholder-shown ~ .warning{
+	margin-top: 10px;
 	display: flex;
 	color: red;
 }
