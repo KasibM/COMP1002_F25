@@ -16,9 +16,9 @@ input[type="checkbox"] {
 img{	
 	vertical-align: middle;
 }
-input[id="delivery"] > p{
+.hidden-delivery-address{
 	display: none;
 }
-input[id="delivery"]:checked > p{
-	display:block;
+#delivery:checked ~ .hidden-delivery-address{
+	display: flex;
 }
