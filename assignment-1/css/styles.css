@@ -8,9 +8,11 @@ body {
 	max-width: 1024px;
 }
 input[type="radio"] {	
-	margin-right: 5%;	
+	margin-right: 5%;
 }
 input[type="checkbox"] {
-	
 	margin-right: 1rem;
+}
+img{	
+	vertical-align: middle;
 }
