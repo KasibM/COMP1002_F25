@@ -13,11 +13,11 @@
     <main>
         <h2>Order Placed.</h2>
 <?php
-    $user_name = $_GET["name"];
-    $user_email = $_GET["mail"];
-    $user_phone = $_GET["phone"];
+    $user_name = $_GET["user_name"];
+    $user_email = $_GET["user_email"];
+    $user_phone = $_GET["user_phone"];
 
-    $pizza_quantity = $_GET["quantity"];
+    $pizza_quantity = $_GET["pizza_quantity"];
     $pizza_style = $_GET["pizza_style"];
     $pizza_size = $_GET["pizza_size"];
     $pizza_shape = $_GET["pizza_shape"];
