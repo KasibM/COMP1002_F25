@@ -53,7 +53,12 @@ main aside {
 	background-repeat: no-repeat;
 	background-position: top left;
 */
-
+a[rel="external"] {
+	padding-left: 20px;
+	background-image: url("../images/new.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
 
 /* Thank you to 'pnx' at https://openclipart.org/detail/202731/external-link-icon for the very cool external link icon */
 
