@@ -30,7 +30,7 @@
     foreach($pizza_toppings as $topping){
         echo('<li>'.$topping.'</li>');
     };
-    echo('will be ready in 5 minutes!</ul></p>');
+    echo('</ul>will be ready in 5 minutes!</p>');
 ?>
     </main>
     <footer>
