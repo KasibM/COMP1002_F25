@@ -144,13 +144,14 @@
                             <p class="hidden-delivery-address">             <!--hidden when delivery is not selected-->
                                 <label for="address">Delivery Address:
                                     <input type="text" id="address" placeholder="Please input your address." name="address" maxlength="50" />
-                                <small class="warning"> Warning! If input is address is left blank, we will still charge you and eat your pizza(s) ourselves.</small> 
+
+                                    <!--hidden when delivery is not selected, warning shown when address is empy and delivery is selected-->
+                                    <small class="warning"> Warning! If input is address is left blank, we will still charge you and eat your pizza(s) ourselves.</small> 
                                 </label>
                             </p>
-                                         <!--hidden when delivery is not selected, warning shown when address is empy and delivery is selected-->
-                            
                         </fieldset>
                     </div>
+                    <br />
                     <div> <!--Special Instructions-->
                         <fieldset>
                             <legend>Special Instructions</legend>
