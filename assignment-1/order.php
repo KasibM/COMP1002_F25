@@ -18,17 +18,17 @@
     $user_phone = $_GET["phone"];
 
     $pizza_quantity = $_GET["quantity"];
-    $pizza_style = $_GET["pizza_style"];
-    $pizza_size = $_GET["pizza_size"];
-    $pizza_shape = $_GET["pizza_shape"];
-    $pizza_toppings = $_GET["pizza_toppings"];
+    $pizza_style = $_GET["pizza_style[]"];
+    $pizza_size = $_GET["pizza_size[]"];
+    $pizza_shape = $_GET["pizza_shape[]"];
+    $pizza_toppings = $_GET["pizza_toppings[]"];
 
     $delivery_method = $_GET["delivery_method"];
     $instructions = $_GET["instructions"];
 
     echo('<p>Thank you '.$user_name.', your ');
     foreach($pizza_toppings as $topping){
-        echo(.$topping.', ');
+        echo(''.$topping.', ');
     }
     echo(' pizza(s) will be ready in 5 minutes!</p>');
 ?>
