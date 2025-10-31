@@ -132,21 +132,21 @@
                         <fieldset>
                             <legend>Delivery Method</legend>
                             <label for="eat_in">Eat-in</label>
-                            <input type="radio" id="eat_in" name="delivery_method" required />
+                            <input type="radio" id="eat_in" name="delivery_method[]" required />
                             
                             <label for="take_out">Take-out</label>
-                            <input type="radio" id="take_out" name="delivery_method" required />
+                            <input type="radio" id="take_out" name="delivery_method[]" required />
 
                             <label for="thin_crust">Delivery</label>
-                            <input type="radio" id="thin_crust" name="delivery_method" required />
+                            <input type="radio" id="thin_crust" name="delivery_method[]" required />
                         </fieldset>
                     </div>
                     <div> <!--Special Instructions-->
                         <fieldset>
                             <legend>Special Instructions</legend>
-                            <label for="special_instructions">Let us know if there is anything you'd like to add:</label>
+                            <label for="instructions">Let us know if there is anything you'd like to add:</label>
                             <br />
-                            <textarea id="special_instructions" name="instructions" rows="5" cols="40" maxlength="500"></textarea>
+                            <textarea id="instructions" name="instructions" rows="5" cols="40" maxlength="500"></textarea>
                         </fieldset>
                     </div>
                     <div> <!--Reset/Submit-->
