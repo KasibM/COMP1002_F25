@@ -1,27 +1,43 @@
 html {
 	font-family: sans-serif;
-	background-color: orange;
+	background-color: orange; /*background-colour set orange*/
 }
 body {
 	margin: 0 auto;
 	min-width: 768px;
 	max-width: 1024px;
 }
+/* fieldset labels (legend element) are white  */
+legend{
+	color: white;
+}
+/* radio buttons spacing 5% of window width  */
 input[type="radio"] {	
 	margin-right: 5%;
 }
+/* sets spacing for checkboxes to 1rem */
 input[type="checkbox"] {
 	margin-right: 1rem;
 }
+/* lines up the option pictures with the radio labels */
 img{	
 	vertical-align: middle;
 }
+/* hides hidden-delivery-address class (contains label, input box, warning) when delivery is not selected */
 .hidden-delivery-address{
 	display: none;
 }
+/* when delivery is checked hidden-delivery-address class is displayed */
 #delivery:checked ~ .hidden-delivery-address{
 	display: flex;
 }
+/* display none when address box filled  */
 .warning{
-	color: red;
+	display: none;
 }
+/* colours warning text red display if address box is empty */
+#address:empty ~ .warning{
+	color: red;
+	display: flex;
+}
+
