@@ -22,3 +22,6 @@ img{
 #delivery:checked ~ .hidden-delivery-address{
 	display: flex;
 }
+.warning{
+	color: red;
+}

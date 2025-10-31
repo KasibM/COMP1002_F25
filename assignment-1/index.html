@@ -138,10 +138,11 @@
                             <input type="radio" id="take_out" name="delivery_method" value="Take-out" required />
 
                             <label for="delivery">Delivery</label>
-                            <input type="radio" id="delivery" name="delivery_method" value="Delivery"/>
+                            <input type="radio" id="delivery" name="delivery_method" value="Delivery" required />
                             <p class="hidden-delivery-address">
                                 <label for="address">Delivery Address:</label>
-                                <input type="text" id="address" name="delivery_method" maxlength="50" required/>
+                                <input type="text" id="address" name="delivery_method" maxlength="50" />
+                                <br /> <small class="warning">Warning! If input is address is left blank, we will still charge you and eat your pizza(s) ourselves.</small>
                             </p>
                         </fieldset>
                     </div>
