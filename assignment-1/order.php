@@ -26,6 +26,7 @@
     $delivery_method = $_GET["delivery_method"];
     $instructions = $_GET["instructions"];
 
+
     echo('<p>Thank you '.$user_name.', your '.$pizza_quantity.' '.$pizza_size.' '.$pizza_shape.' pizza(s) with: <ul>');
     foreach($pizza_toppings as $topping){
         echo('<li>'.$topping.'</li>');
