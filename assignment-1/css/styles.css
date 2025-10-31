@@ -16,3 +16,9 @@ input[type="checkbox"] {
 img{	
 	vertical-align: middle;
 }
+input[id="delivery"] > p{
+	display: none;
+}
+input[id="delivery"]:checked > p{
+	display:contents;
+}
