@@ -1,0 +1,18 @@
+html {
+	font-family: sans-serif;
+	background-color: orange;
+}
+body {
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;
+}
+input[type="radio"] {	
+	margin-right: 5%;
+}
+input[type="checkbox"] {
+	margin-right: 1rem;
+}
+img{	
+	vertical-align: middle;
+}

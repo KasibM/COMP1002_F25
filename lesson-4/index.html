@@ -13,7 +13,7 @@
 		<main>
             <h2>Edit Account Information and Settings</h2>
             <!-- STEP 1: After first uploading all of these lesson files to your Web server, set the action attribute for the form (process-form.php), then go to the bottom of the form for the next step -->
-            <form id="edit_payment_info" action="" method="get">
+            <form id="edit_payment_info" action="process-form.php" method="get">
                 <!-- Note the hidden form element below - these can be used to other useful name/value pairs to the server -->
                 <input type="hidden" name="form_sent" value="1" />
 
@@ -21,7 +21,11 @@
                 Contact Information
                     <!-- STEP 3: Build an input element for First Name and Last Name - include type, name, id, required, size, maxlength, and placeholder attributes -->
                     <div>
-                        
+                        <label>First Name</label>
+                        <input type="text" name="fname" id="fname" maxlength="20" />
+                        <label>Last Name</label>
+                        <input type="text" name="lname" id="lname" maxlength="20" />
+                       
                          
                     </div>
                     <div>
@@ -89,7 +93,9 @@
                     <!-- STEP 15: Upload this HTML file to your server, and browse to it to verify that all changes have been applied, then proceed to process-form.php for the next step -->
                 </fieldset>
                 <!-- STEP 2: Add buttons or input elements to function as the reset and submit buttons -->
+                <button type="Reset"button>Reset</button>
                 
+                <button type="Submit">Submit</button>
             </form>
         </main>
         <footer>
