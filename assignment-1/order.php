@@ -26,7 +26,11 @@
     $delivery_method = $_GET["delivery_method"];
     $instructions = $_GET["instructions"];
 
-    echo('<p>Thank you '.$user_name.', your '.$pizza_size.' pizza(s) will be ready in 5 minutes!</p>');
+    echo('<p>Thank you '.$user_name.', your ');
+    foreach($pizza_toppings as $topping){
+        echo(.$topping.', ');
+    }
+    echo(' pizza(s) will be ready in 5 minutes!</p>');
 ?>
     </main>
     <footer>
