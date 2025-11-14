@@ -36,7 +36,9 @@ h3{
 }
 
 /* STEP 7a: ATTRIBUTE Selector - Build a selector that targets any element with the attribute, 'lang', setting the border to '5px dotted red' */
-
+[lang]{
+	border: 5px dotted red;
+}
 /* STEP7b: Try some other regular expression type variations -
 
 	[attr|="val"] - all elements with the attribute attr for which the value is exactly "val" or starts with "val-" (the trailing dash here handles language codes)
