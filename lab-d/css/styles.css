@@ -53,6 +53,7 @@ header nav li {
 	/* border-width: 1px;
 	border-style: dashed;
 	border-color: red; */
+	
 
 	display: inline-block;
 	margin-right: 0.5em;
@@ -83,6 +84,7 @@ main section {
 	/* border-width: 1px;
 	border-style: dotted;
 	border-color: hotpink; */
+	border-style:none;
 
 	padding: 1em 1em 1em 1em;
 
