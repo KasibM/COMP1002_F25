@@ -79,9 +79,11 @@ main {
 main section {
 
 	width: 60%;
-	border-width: 1px;
+
+	/* border-width: 1px;
 	border-style: dotted;
-	border-color: hotpink;
+	border-color: hotpink; */
+
 	padding: 1em 1em 1em 1em;
 
 
