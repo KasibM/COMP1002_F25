@@ -6,7 +6,7 @@ html{
 
 }
 
-span.redText{
+.redText{
     color:#f34a1d;
 
 }
@@ -14,7 +14,7 @@ span.redText{
     text-transform: uppercase;
 
 }
-span.website{
+.website{
     text-transform: lowercase;
 
 }
@@ -36,7 +36,7 @@ div#container{
 
 header{
     margin-top: 20px;
-    margin-bottom: 672px;
+    margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
 
@@ -50,61 +50,73 @@ header div{
     align-content: center;
 
 }
-div.title{
+.title{
     display: inline-block;
     width: 80%;
     
 
 }
-div.review{
+.review{
     width: 20%;
     display: inline-block;
 
 }
 
-span.filmReview{
+.filmReview{
 
 
 }
 
-span.reviewers{
+.reviewers{
 
 
 }
 
-div.actor,div.character{
+main{
+margin-top: 647px;
+
+}
+
+.actor, .character{
+    margin-right: 25px;
+    margin-left: 25px;
     text-align: center;
-
 }
 
-div.credits{
+.credits{
     margin-top: 23px;
     margin-bottom: 25px;
-    margin-right: 113px;
+    margin-right: 25px;
+    margin-left: 25px;
+    /* margin-right: 113px; */
     /* margin-left: 153px; */
     display: flex;
 
 }
-div.production{
+.production{
     display:inline-block;
-    width:50%;
+    
+    padding-left: 128px;
+    width: 305px;
+    padding-right: 23px;
+    /*  25 + 128 + 305 + 23 + 23 + 247 + 88 + 25 */
 
     text-align: right;
-    padding-right: 23px;
 }
-div.actors{
+.actors{
     font-size: 5px;
     display:inline-block;
-    width:50%;
+    padding-left: 23px;
+    width: 247px;
+    padding-right: 88px;
 
     align-content: end;
     text-align: left;
-    padding-left: 23px;
 
 
 }
 
-div.summary{
+.summary{
     margin-left: 25px;
     margin-right: 25px;
 
