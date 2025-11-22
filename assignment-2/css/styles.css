@@ -6,14 +6,21 @@ html{
 
 }
 
+div, header, footer{
+    
+    border: 1px solid white;
+}
+
 .redText{
     color:#f34a1d;
 
 }
-.title, .actor, .character, .credits, .anabas-essex, .copyright, .publication{
+
+.title, .actor, .character, .credits, .anabas-essex, .copyright, .publication, .spectre{
     text-transform: uppercase;
 
 }
+
 .website{
     text-transform: lowercase;
 
@@ -37,8 +44,8 @@ div#container{
 header{
     margin-top: 20px;
     margin-bottom: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 31px;
+    margin-right: 26px;
 
     display: flex;
 
@@ -51,14 +58,18 @@ header div{
 
 }
 .title{
-    display: inline-block;
-    width: 80%;
+    /* display: inline-block; */
     
+    margin-right: 21px;
+    width: 603px;
 
 }
 .review{
-    width: 20%;
-    display: inline-block;
+    margin-left: 21px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 162px;
+    /* display: inline-block; */
 
 }
 
@@ -74,42 +85,44 @@ header div{
 
 main{
 margin-top: 647px;
+margin-left: 32px;
+margin-right: 26px;
+margin-bottom: 11px;
 
 }
+.top-credit{
+     
 
+}
 .actor, .character{
-    margin-right: 25px;
-    margin-left: 25px;
     text-align: center;
 }
 
 .credits{
     margin-top: 23px;
     margin-bottom: 25px;
-    margin-right: 25px;
-    margin-left: 25px;
+
     /* margin-right: 113px; */
     /* margin-left: 153px; */
     display: flex;
 
 }
 .production{
-    display:inline-block;
+    /* display:inline-block; */
     
-    padding-left: 128px;
-    width: 305px;
-    padding-right: 23px;
-    /*  25 + 128 + 305 + 23 + 23 + 247 + 88 + 25 */
+    margin-left: 121px;
+    margin-right: 23px;
+     width: 301px;
+    /*  32 + 121 + 301 + 23 + 23 + 247 + 91 + 26 */
 
     text-align: right;
 }
 .actors{
     font-size: 5px;
-    display:inline-block;
-    padding-left: 23px;
+    /* display:inline-block; */
+    margin-left: 23px;
+    margin-right: 91px;
     width: 247px;
-    padding-right: 88px;
-
     align-content: end;
     text-align: left;
 
@@ -117,9 +130,36 @@ margin-top: 647px;
 }
 
 .summary{
-    margin-left: 25px;
-    margin-right: 25px;
+    
 
 }
 
+footer{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 824px;
+    height: 23px;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 4.4px;
+    text-align: justify;
 
+}
+.anabas{
+    width: 156px;
+}
+.copyright{
+    width: 59px;
+
+}
+.publication{
+    width: 561px;
+
+}
+div[class*="anabas"]{
+    margin-right: 10px;
+}
+
+.copyright{
+    margin-right: 5px;
+}
