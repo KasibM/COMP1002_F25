@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+html{
+    background-color: black;
+    color: white;
+
+}
+
+span.redText{
+    color:#f34a1d;
+
+}
+.title, .actor, .character, .credits, .anabas-essex, .copyright, .publication{
+    text-transform: uppercase;
+
+}
+span.website{
+    text-transform: lowercase;
+
+}
+
+div#container{
+    
+    background-color: black;
+    justify-self: center;
+    
+    height:1184px;
+    width:864px;
+
+    margin: 100px auto;
+    border: 1px solid white;
+
+    background-image: url(../images/FRWL-textRemoved.png);
+
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 672px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    display: flex;
+
+    text-align: center;
+    
+}
+
+header div{
+    align-content: center;
+
+}
+div.title{
+    display: inline-block;
+    width: 80%;
+    
+
+}
+div.review{
+    width: 20%;
+    display: inline-block;
+
+}
+
+span.filmReview{
+
+
+}
+
+span.reviewers{
+
+
+}
+
+div.actor,div.character{
+    text-align: center;
+
+}
+
+div.credits{
+    margin-top: 23px;
+    margin-bottom: 25px;
+    margin-right: 113px;
+    /* margin-left: 153px; */
+    display: flex;
+
+}
+div.production{
+    display:inline-block;
+    width:50%;
+
+    text-align: right;
+    padding-right: 23px;
+}
+div.actors{
+    font-size: 5px;
+    display:inline-block;
+    width:50%;
+
+    align-content: end;
+    text-align: left;
+    padding-left: 23px;
+
+
+}
+
+div.summary{
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+

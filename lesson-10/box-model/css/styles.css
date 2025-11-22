@@ -22,7 +22,7 @@ div#container {
 /* STEP 5a: Set padding values on the DIV#container element - set individual padding values, then use shorthand with the clock rule again (TRBL) */
 div#container {
 
-  margin: 5% auto;
+  margin: 10% auto;
   background-image: url("../images/stucco.jpg");
   background-repeat:repeat;
   background-size:100%;
