@@ -1,4 +1,14 @@
 @charset "utf-8";
+@font-face {
+    font-family: "Bodoni Moda";
+    src: url("../fonts/Bodoni\ Moda/BodoniModa-VariableFont_opsz,wght") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Benzin Bold";
+    src: url("../fonts/Benzin\ Bold/benzin-bold.ttf") format("truetype");
+}
 
 html{
     background-color: black;
@@ -12,7 +22,7 @@ div, header, footer{
 }
 
 .redText{
-    color:#f34a1d;
+    color:#d7441c;
 
 }
 .blackText{
@@ -52,107 +62,143 @@ header{
 
     display: inline-flex;
     
-
-    /* text-align:center; */
     
 }
 
 header div{
     align-content: center;
+    text-align: center;
+    white-space: nowrap;
 }
 .title{
     margin-right: 21px;
     width: 603px;
     max-height: 90px;
 
-}
-.title-text{
-    /* width:auto; */
-    display:inline;
-    /* margin-left: 0; */
-    vertical-align:middle;
+    transform-origin:middle;
+    transform: scaleY(2.65); 
+
     font-family: "Bodoni Moda", serif;
-    font-size: 110px;
-    text-align: justify;
-    white-space: nowrap;
-    /* overflow: hidden; */
-
-    line-height:0;
-    transform: scaleX(0.5); 
-
-
+    font-optical-sizing:none;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 0;
 }
+
 .review{
     margin-left: 21px;
     margin-top: 8px;
     margin-bottom: 8px;
     width: 162px;
-    /* display: inline-block; */
+
+    font-family: "Benzin Bold";
+
+    transform-origin: middle;
+    transform: scaleY(1.1);
 
 }
 
 .filmReview{
-
+    font-size: 32px;
+    line-height: 0; 
+    vertical-align:bottom;
+    
 
 }
 
 .reviewers{
-
+    font-size: 5px;
+    vertical-align: middle;
+    line-height: 7.5;
 
 }
 
 main{
-margin-top: 647px;
-margin-left: 32px;
-margin-right: 26px;
-margin-bottom: 11px;
+    margin-top: 620px;
+    margin-left: 32px;
+    margin-right: 26px;
+    margin-bottom: 11px;
 
 }
+
 .top-credit{
-     
+    font-family: "Bodoni Moda", serif;
+    
 
 }
+
 .actor, .character{
     text-align: center;
+    white-space: nowrap;
+
+}
+
+.actor{
+    margin-left: 199px;
+    margin-right: 148px;
+    font-size: 46px;
+
+}
+
+.character{
+    margin-left: 264px;
+    margin-right: 223px;
+    font-size: 35px;
+}
+
+.top-credit div span[class*="role"]{
+    font-size: 20px;
+
 }
 
 .credits{
     margin-top: 23px;
     margin-bottom: 25px;
 
-    /* margin-right: 113px; */
-    /* margin-left: 153px; */
+    
     display: flex;
 
+    font-family:sans-serif;
+    line-height: 1;
 }
+
 .production{
-    /* display:inline-block; */
     
     margin-left: 121px;
     margin-right: 23px;
-     width: 301px;
-    /*  32 + 121 + 301 + 23 + 23 + 247 + 91 + 26 */
+    width: 301px;
 
     text-align: right;
+    font-size: 16px;
 }
+
 .director{
     text-align: left;
 }
+
 .actors{
-    font-size: 5px;
-    /* display:inline-block; */
     margin-top: 17px;
     margin-left: 23px;
     margin-right: 91px;
     width: 247px;
+
     align-content: end;
     text-align: left;
 
+    line-height: 1.3;
+    
+
+}
+
+.credits div span[class*="role"], .su, .actors{
+    font-size: 8.3px;
 
 }
 
 .summary{
-    
+    font-family:sans-serif;
+    font-size:11px;
+
 
 }
 
@@ -163,8 +209,11 @@ footer{
     height: 23px;
     margin-bottom: 10px;
     display: flex;
-    font-size: 4.4px;
+    
+    font-family:sans-serif;
+    font-size: 4.15px;
     text-align: justify;
+
 
 }
 .anabas{
