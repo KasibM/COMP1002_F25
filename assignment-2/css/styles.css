@@ -15,6 +15,9 @@ div, header, footer{
     color:#f34a1d;
 
 }
+.blackText{
+    color: black;
+}
 
 .title, .actor, .character, .credits, .anabas-essex, .copyright, .publication, .spectre{
     text-transform: uppercase;
@@ -47,21 +50,36 @@ header{
     margin-left: 31px;
     margin-right: 26px;
 
-    display: flex;
+    display: inline-flex;
+    
 
-    text-align: center;
+    /* text-align:center; */
     
 }
 
 header div{
     align-content: center;
-
 }
 .title{
-    /* display: inline-block; */
-    
     margin-right: 21px;
     width: 603px;
+    max-height: 90px;
+
+}
+.title-text{
+    /* width:auto; */
+    display:inline;
+    /* margin-left: 0; */
+    vertical-align:middle;
+    font-family: "Bodoni Moda", serif;
+    font-size: 110px;
+    text-align: justify;
+    white-space: nowrap;
+    /* overflow: hidden; */
+
+    line-height:0;
+    transform: scaleX(0.5); 
+
 
 }
 .review{
@@ -117,9 +135,13 @@ margin-bottom: 11px;
 
     text-align: right;
 }
+.director{
+    text-align: left;
+}
 .actors{
     font-size: 5px;
     /* display:inline-block; */
+    margin-top: 17px;
     margin-left: 23px;
     margin-right: 91px;
     width: 247px;
@@ -150,16 +172,19 @@ footer{
 }
 .copyright{
     width: 59px;
+    margin-right: 5px;
 
 }
 .publication{
     width: 561px;
 
+
 }
 div[class*="anabas"]{
     margin-right: 10px;
 }
+.anabas, .copyright, .publication{
+    margin-top: 12px;
 
-.copyright{
-    margin-right: 5px;
 }
+
