@@ -216,22 +216,27 @@ footer{
 
 
 }
+
 .anabas{
     width: 156px;
 }
+
 .copyright{
     width: 59px;
     margin-right: 5px;
 
 }
+
 .publication{
     width: 561px;
 
 
 }
+
 div[class*="anabas"]{
     margin-right: 10px;
 }
+
 .anabas, .copyright, .publication{
     margin-top: 12px;
 
