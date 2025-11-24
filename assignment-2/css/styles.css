@@ -31,7 +31,7 @@ body {
 } */
 
 .redText{
-    color:#f34025;
+    color:#f14a2b;
 
 }
 .blackText{
@@ -68,7 +68,7 @@ a{
     color: white;
 }
 a:hover{
-    color:#f34025;
+    color:#f14a2b;
 }
 a:visited{
     color: #610e03;
