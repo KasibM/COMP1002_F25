@@ -4,3 +4,8 @@
     src: url("../fonts/augustus/AUGUSTUS.TTF") format("truetype");
     /* https://www.dafont.com/augustus.font */
 }
+@font-face {
+    font-family: "Greek Freak";
+    src: url("../fonts/greek_freak/Greek-Freak.ttf") format("truetype");
+    /* https://www.dafont.com/greek-freak.font */
+}
