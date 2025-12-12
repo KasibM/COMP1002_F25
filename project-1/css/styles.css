@@ -1,0 +1,6 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Augustus";
+    src: url("../fonts/augustus/AUGUSTUS.TTF") format("truetype");
+    /* https://www.dafont.com/augustus.font */
+}
