@@ -19,6 +19,10 @@ main {
 	display: flex;
 	flex-direction: column;
 }
+nav{
+	list-style-type: none;
+
+}
 
 
 /* STEP 4: Add styles to visually communicate that this is a small screen - use the ::after psuedoelement and the content property to add some text after the H1 */

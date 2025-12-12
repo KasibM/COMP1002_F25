@@ -9,3 +9,55 @@
     src: url("../fonts/greek_freak/Greek-Freak.ttf") format("truetype");
     /* https://www.dafont.com/greek-freak.font */
 }
+html{
+    background-color: #E0D9B8;
+    min-width: 285px;
+    font-size: 1em;
+}
+ 
+body{
+    margin: 0;
+    
+
+}
+header{
+    background-color: #fcf7f4;
+    padding: 0% 1% 0% 1%;
+    font-family: "Greek Freak";
+    color: #014ecb;
+    width: 98%;
+   
+}
+
+nav {
+    
+    align-items:baseline;
+}
+nav ul{
+    list-style-type: none;
+    padding-inline-start:0;
+    justify-content:space-evenly;
+    display: inline-flex; 
+    gap: 10px;
+    
+}
+
+header a{
+	
+    text-decoration: none;
+
+}
+header h1 a:visited{
+    color: #014ecb;
+
+}
+header h1 a:hover{
+    color: #e4c00c;
+
+}
+nav a:hover{
+    color: #e4c00c;
+
+}
+
+
