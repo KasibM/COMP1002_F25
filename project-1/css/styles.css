@@ -1,3 +1,6 @@
+/*
+base style sheet
+*/
 @charset "utf-8";
 @font-face {
     font-family: "Greek Freak";
@@ -10,24 +13,20 @@ html{
     font-size: 1.15rem;
     font-family: "Greek Freak";
 }
- 
 body{
     background-image: url(../images/sandstone-texture.jpg);
+    /* https://www.flickr.com/photos/seier/4655145027 */
     background-repeat:repeat;
     background-size:30%;
     flex-direction:column;
     margin: 0;
-    
-
 }
 header{
     background-color: #fcf7f4;
     padding: 0% 1% 0% 1%;
     color: #014ecb;
     width: 98%; 
-   
 }
-
 nav {
     align-items:baseline;
 }
@@ -53,7 +52,6 @@ header a:hover, main a:hover{
     color: #e4c00c;
     font-size:110%;
 }
-
 main{
     height: 100%;
     padding: 3%;
