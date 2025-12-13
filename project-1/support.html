@@ -39,7 +39,49 @@
             <!-- main -->
             <main>
                 <div class="main-row">
-
+                    <figure id="order" class="fig">
+                        <img src="images/order-page-horse.webp" alt="Horse Statue">
+                        <!--https://www.greekboston.com/culture/mythology/odysseus-trojan-horse/-->
+                        <figcaption>
+                            Wheeled cart only (included in picture), only included with purchases of 2 or more statues.
+                        </figcaption>
+                    </figure>
+                    <form id="order" class=" fig-desc" action="order.php" method="get">
+                        <fieldset>
+                            <legend>Place an Order</legend>
+                            <p>
+                                <label for="name">Name:</label>
+                                <br />
+                                <input type="text" id="name" name="order_name" maxlength="30" required />
+                            </p>
+                            <p>
+                                <label for="location">Delivery Location:</label>
+                                <br />
+                                <input type="text" id="location" name="order_location" maxlength="30" required />
+                            </p>
+                            <p>
+                                <label for="quantity">How many Statues do you need?(max 4)</label>
+                                <select id="quantity" name="order_quantity">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="is-troy">Are you from Troy?</label>
+                                <br />
+                                <input type="radio" id="yes" name="is-troy" value="troy" required />
+                                <label for="yes">Yes</label>
+                                <input type="radio" id="no" name="is-troy" value="not-troy" required />
+                                <label for="no">No</label>
+                            </p>
+                            <p class="review-button">
+                                <button type="clear">Clear</button>
+                                <button type="submit">Submit</button>
+                            </p>
+                        </fieldset>
+                    </form>
                 </div>
                 <div class="main-row">
                     <div id="runner-description" class="fig-small-desc">
@@ -52,7 +94,7 @@
                         <img src="images/runner.webp" alt="A Wooden Statue Emporium messenger" />
                         <!--https://sportsgearmag.com/runners-greece/-->
                         <figcaption>
-                            Will be in touch, in 3 months or less!
+                            Will be in touch in 3 months or less!
                         </figcaption>
                     </figure>
                 </div>

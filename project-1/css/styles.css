@@ -12,7 +12,7 @@ html{
 }
  
 body{
-    background-image: url(../images/4655145027_7a0715be5b_b.jpg);
+    background-image: url(../images/sandstone-texture.jpg);
     background-repeat:repeat;
     background-size:30%;
     flex-direction:column;
@@ -70,7 +70,11 @@ img{
 .new-price:hover{ 
     font-size:2rem;
 }
-div.main-row .main-review p{
+.main-row .hero-desc, div.main-row .hero{
+        width: 80%;
+        text-align: center;
+    }
+.main-row .main-review p{
         padding-bottom: 0.5rem;
         border-bottom: solid #8b3019 0.2rem;
 }

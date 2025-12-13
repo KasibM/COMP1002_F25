@@ -9,32 +9,32 @@
         display: flex;
         justify-content: space-evenly;
     }
-    div.main-row .fig{
+    .main-row .fig{
         width: 60%;
     }
-    div.main-row .fig-desc{
+    .main-row .fig-desc{
         padding:3%;
         width: 40%;
         text-align: left;
         align-content: center;
     }
-    div.main-row .fig-small{
+    .main-row .fig-small{
         width: 30%;
     }
-    div.main-row .fig-small-desc{
+    .main-row .fig-small-desc{
         padding:3%;
         width: 70%;
         text-align: left;
         align-content: center;
     }
-    div.main-row .main-review{
+    .main-row .main-review{
         padding:4%;
         width:25%;
     }
-    div.main-row .main-review h3{
+    .main-row .main-review h3{
         text-align: center;
     }
-    div.main-row#submission-box{
+    .main-row#submission-box{
         padding-left:15%;
         justify-content:left;
     }
@@ -55,7 +55,7 @@
     }
     .main-row .fig-desc, .main-row .main-review{
         text-align: center;
-    } 
+    }
     .main-row .main-review{
         padding-top: 2rem;
     }
