@@ -38,7 +38,47 @@
 
             <!-- main -->
             <main>
-                
+                <div id="reviews" class="main-row">
+                    <article class="main-review">
+                        <h3>Menelaus</h3>
+                        <p>
+                            Anyone who doesn't have one of these, needs one right now!
+                        </p>
+                    </article>
+                    <article class="main-review">
+                        <h3>Agamemnon</h3>
+                        <p>
+                            I bought it, and never regretted it. Actually I wish I bought two more.
+                        </p>
+                    </article>
+                    <article class="main-review">
+                        <h3>Achilles</h3>
+                        <p>
+                            The view from the top is great! Definitely would recommend this purchase!
+                        </p>
+                    </article>
+                </div>
+                <div id="submission-box"class="main-row">
+                    <form id="feedback" action="feedback.php" method="get">
+                        <fieldset>
+                            <legend>Reviews or Questions</legend>
+                            <p>
+                                <label for="name">Name:</label>
+                                <br />
+                                <input type="text" id="name" name="feedback_name" maxlength="30" required />
+                            </p>
+                            <p>
+                                <label for="feedback_content">Your message:</label>
+                                <br />
+                                <textarea id="feedback_content" name="feedback_content" rows="5" cols="40" maxlength="500"></textarea>
+                            </p>
+                            <p class="review-button">
+                                <button type="clear">Clear</button>
+                                <button type="submit">Submit</button>
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
             </main>
             <!-- end of main -->
 
