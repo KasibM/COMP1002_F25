@@ -33,7 +33,7 @@
     .main-row{
         justify-content: center;
     }
-    div.main-row .fig-desc{
+    .main-row .fig-desc{
         text-align: center;
     } 
 }

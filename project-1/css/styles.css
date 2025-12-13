@@ -7,7 +7,7 @@
 html{
     background-color: #E0D9B8;
     min-width: 285px; 
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-family: "Greek Freak";
 }
  
@@ -35,18 +35,17 @@ nav ul{
     display: inline-flex; 
     gap: 10px;
 }
-header a,div#trojan-horse-description a{
+header a, .fig-desc a{
     text-decoration: none;
 }
 header h1 a:visited{
     color: #014ecb;
 }
-header h1 a:hover,div#trojan-horse-description a:hover{
+header h1 a:hover, header nav a:hover, .fig-desc a:hover{
     color: #e4c00c;
+    font-size:110%;
 }
-nav a:hover{
-    color: #e4c00c;
-}
+
 main{
     height: 100%;
     padding: 3%;
