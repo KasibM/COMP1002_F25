@@ -1,28 +1,39 @@
 @charset "utf-8";
-@media screen and (min-width: 700px){
+@media screen and (min-width: 730px){
     header{
         display: flex;
         justify-content: space-evenly;
         align-items:baseline;
-
     }
-    
+    .main-row{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    div.main-row .fig{
+        width: 60%;
+    }
+    div.main-row .fig-desc{
+        padding:3%;
+        width: 40%;
+        text-align: left;
+        align-content: center;
+    }
 }
-@media screen and (max-width: 699px){
+@media screen and (max-width: 729px) and (orientation: portrait){
     header{
         display: block;
     }
     header h1, header nav ul{
         margin-block-start:0%;
-        margin-block-end: 0;
-        
+        margin-block-end: 0;  
     }
-    header h1{
+    header h1, header nav{
         justify-self:center;
-        word-break:keep-all;
+    }  
+    .main-row{
+        justify-content: center;
     }
-    header nav{
-        justify-self:center;
-    }
-    
+    div.main-row .fig-desc{
+        text-align: center;
+    } 
 }

@@ -1,21 +1,18 @@
 @charset "utf-8";
 @font-face {
-    font-family: "Augustus";
-    src: url("../fonts/augustus/AUGUSTUS.TTF") format("truetype");
-    /* https://www.dafont.com/augustus.font */
-}
-@font-face {
     font-family: "Greek Freak";
     src: url("../fonts/greek_freak/Greek-Freak.ttf") format("truetype");
     /* https://www.dafont.com/greek-freak.font */
 }
 html{
     background-color: #E0D9B8;
-    min-width: 285px;
-    font-size: 1em;
+    min-width: 285px; 
+    font-size: 1rem;
+    font-family: "Greek Freak";
 }
  
 body{
+    flex-direction:column;
     margin: 0;
     
 
@@ -23,14 +20,12 @@ body{
 header{
     background-color: #fcf7f4;
     padding: 0% 1% 0% 1%;
-    font-family: "Greek Freak";
     color: #014ecb;
-    width: 98%;
+    width: 98%; 
    
 }
 
 nav {
-    
     align-items:baseline;
 }
 nav ul{
@@ -39,25 +34,51 @@ nav ul{
     justify-content:space-evenly;
     display: inline-flex; 
     gap: 10px;
-    
 }
-
-header a{
-	
+header a,div#trojan-horse-description a{
     text-decoration: none;
-
 }
 header h1 a:visited{
     color: #014ecb;
-
 }
-header h1 a:hover{
+header h1 a:hover,div#trojan-horse-description a:hover{
     color: #e4c00c;
-
 }
 nav a:hover{
     color: #e4c00c;
-
 }
+main{
+    height: 100%;
+    padding: 3%;
+    color: #8b3019;
+}
+img{
+        width: 100%;
+        border: solid #8b3019 0.2rem;
+}
+.original-price{
+    color: red;
+    text-decoration: line-through;
+}
+.new-price:hover{ 
+    font-size:2rem;
+}
+footer{
+    height: 4rem;
+    background-color: #a67748;
+    font-size: 0.5rem;
+    text-align: center;
+    color: #b88450;
+}
+footer p{
+    padding:1.5rem;
+    margin-block: 0;
+}
+footer:hover{
+    color: #8b3019;
+}
+
+
+
 
 
